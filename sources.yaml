@@ -1,0 +1,48 @@
+sources:
+  - id: "scholarships_gov"
+    name: "National Scholarship Portal"
+    url: "https://scholarships.gov.in"
+    category: "scholarship"
+    enabled: true
+    goal: "Find open scholarships for Indian students across school and college levels."
+    fallback_sources: ["buddy4study"]
+
+  - id: "buddy4study"
+    name: "Buddy4Study"
+    url: "https://www.buddy4study.com"
+    category: "scholarship"
+    enabled: true
+    goal: "Find verified private and government scholarships with eligibility criteria."
+    fallback_sources: ["scholarships_gov"]
+
+  - id: "internshala"
+    name: "Internshala"
+    url: "https://internshala.com"
+    category: "internship"
+    enabled: true
+    goal: "Find verified internship opportunities with stipend and requirements."
+    fallback_sources: ["unstop"]
+
+  - id: "unstop"
+    name: "Unstop"
+    url: "https://unstop.com"
+    category: "hackathon"
+    enabled: true
+    goal: "Find student competitions, hackathons, and corporate fellowship challenges."
+    fallback_sources: ["devfolio"]
+
+  - id: "devfolio"
+    name: "Devfolio"
+    url: "https://devfolio.co"
+    category: "hackathon"
+    enabled: true
+    goal: "Find upcoming developer hackathons and grants with active registrations."
+    fallback_sources: ["devpost"]
+
+  - id: "devpost"
+    name: "Devpost"
+    url: "https://devpost.com"
+    category: "hackathon"
+    enabled: true
+    goal: "Find global and student hackathons with prizes and submission deadlines."
+    fallback_sources: ["devfolio"]
